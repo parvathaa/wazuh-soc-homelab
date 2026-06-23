@@ -46,24 +46,21 @@ Detection Results
 
 Wazuh successfully detected and classified the attack.
 
-Alerts Triggered
+Alerts Triggered:
 Rule ID	Description	MITRE
 5710	Invalid user login attempt	T1110
 5503	PAM authentication failure	T1110
 2502	Multiple failed passwords	T1110
 Threat Hunting Dashboard
 
-MITRE ATT&CK Mapping
+MITRE ATT&CK Mapping : The generated events were automatically mapped by Wazuh to MITRE ATT&CK techniques.
 
-The generated events were automatically mapped by Wazuh to MITRE ATT&CK techniques.
-
-Observed Techniques
-Technique	Description
+Observed Techniques:
 T1110	Brute Force
 T1078	Valid Accounts
 T1548	Abuse Elevation Control Mechanism
 
-Skills Demonstrated
+Skills Demonstrated:
 SIEM Deployment
 Endpoint Monitoring
 Threat Detection
@@ -84,17 +81,4 @@ Collect telemetry
 Detect malicious behavior
 Investigate alerts
 Map activity to ATT&CK techniques
-Future Improvements
-Integrate Suricata IDS
-Add VirusTotal integration
-Create custom Wazuh detection rules
-Add Sigma rule testing
-Monitor Windows endpoints
-Build automated incident response workflows
-Author
 
-Parvatha
-
-MSc Cybersecurity — University of Manchester
-
-SOC Analyst | Cloud Security Enthusiast
